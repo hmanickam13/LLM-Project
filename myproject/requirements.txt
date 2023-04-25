@@ -1,0 +1,4 @@
+openai[embeddings]==0.27.2
+openai==0.27.2
+python-dotenv==1.0.0
+streamlit=1.21.0
