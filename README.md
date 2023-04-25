@@ -22,4 +22,4 @@ This README.md will be updated whenever a new update is made.
 
 ### Notes
 - Raw Data contains the raw data from barchart.com. Data is downloded in csv format
-- The jupyter notebook 'Exploration' was used to preprocess the raw data and create a simple sqlite database.
+- The jupyter notebook 'build_sql_db' was used to preprocess the raw data and create a simple sqlite database.
