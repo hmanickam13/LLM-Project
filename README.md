@@ -9,7 +9,7 @@
 
 ## How to get this working?
 1. Clone the repo
-2. Run the setup.sh file (Create .env file in ur directory. Read setup.sh)
+2. Run the myprojects > scripts > setup.sh file (Create .env file in ur directory. Read setup.sh)
 3. Run "python config.py"
 4. test streamlit web app should launch
 
