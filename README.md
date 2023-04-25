@@ -19,6 +19,7 @@ This README.md will be updated whenever a new update is made.
 - SQLITE DATABASE : 'etf_data.db'
 - TABLES: SPY,TLT,HYG,LQD,VNQ
 - COLUMNS: date, open, high, low, last_traded_price, daily_change, daily_perct_change, volume
+- Date Range: View jupyter notebook for details
 
 ### Notes
 - Raw Data contains the raw data from barchart.com. Data is downloded in csv format
