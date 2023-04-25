@@ -7,10 +7,6 @@
 2. Did SPY outperform TLT last year ?
 3. What happened when Russia Invaded ukraine?
 
-With additional data, for example on the option contracts written on these ETFs, we can ask
-4. How did the options(on the ETFs) react to the Fed's meeting last year?
-
-
 ## Description of Repository
 - The cells in the jupyternotebook 'Exploration' accesses the raw data and creates a sqlite db.
 -----
