@@ -7,20 +7,9 @@
 2. Did SPY outperform TLT last year ?
 3. What happened when Russia Invaded ukraine?
 
-## How to get this working?
-1. Clone the repo
-2. Run the myprojects > scripts > setup.sh file (Create .env file in ur directory. Read setup.sh)
-3. Run "python config.py"
-4. test streamlit web app should launch
+## Contents of this repository:
+1. myproject:<br>
+This contains instructions and all required scripts on how to setup and launch a streamlit app on your browser.
 
-This README.md will be updated whenever a new update is made.
-
-## Database Description
-- SQLITE DATABASE : 'etf_data.db'
-- TABLES: SPY,TLT,HYG,LQD,VNQ
-- COLUMNS: date, open, high, low, last_traded_price, daily_change, daily_perct_change, volume
-- Date Range: View jupyter notebook for details
-
-### Notes
-- Raw Data contains the raw data from barchart.com. Data is downloded in csv format
-- The jupyter notebook 'build_sql_db' was used to preprocess the raw data and create a simple sqlite database.
+2. Raw Data:<br>
+This contains the raw data we downloaded from the internet. Read the README.md inside the folder for more information.
