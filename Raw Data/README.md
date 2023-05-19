@@ -12,12 +12,10 @@ This is the jupyter notebook which build a sqlite database using some of theraw 
 - COLUMNS: date, open, high, low, last_traded_price, daily_change, daily_perct_change, volume
 - Date Range:<br>
 
-'''
-| ETF | Start Date | End Date |
+'''| ETF | Start Date | End Date |
 |-----|------------|------------|
 | spy | 2000-01-03 | 2023-04-24 |
 | tlt | 2002-07-29 | 2023-04-24 |
 | hyg | 2007-04-12 | 2023-04-24 |
 | lqd | 2002-07-29 | 2023-04-24 |
-| vnq | 2004-09-30 | 2023-04-24 |
-'''
+| vnq | 2004-09-30 | 2023-04-24 |'''
