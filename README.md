@@ -9,7 +9,10 @@
 
 ## Contents of this repository:
 1. myproject:<br>
-This contains instructions and all required scripts on how to setup and launch a streamlit app on your browser.
+Thisfolder  contains instructions and all required scripts on how to setup and launch a streamlit app on your browser.
 
 2. Raw Data:<br>
-This contains the raw data we downloaded from the internet. Read the README.md inside the folder for more information.
+This folder contains the raw data we downloaded from the internet. Read the README.md inside the folder for more information.
+
+3. langchain:<br>
+This folder contains the .py files I created to learn how to use langchain.
