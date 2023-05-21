@@ -22,7 +22,9 @@ $ python config.py
 ```
 
 ### Test case queries
-WIP
+1. What was the top performing ETF last year?
+2. Did spy outperform tlt last year?
+3. For which ETF do we have the most data?
 
 ### Extra Commands (MacOS)
 List venv using conda:
