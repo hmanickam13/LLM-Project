@@ -1,9 +1,3 @@
-# create python venv named venv
-python -m venv ./ghcproject
-
-# activate venv
-source ghcproject/bin/activate
-
 # upgrade pip
 pip install --upgrade pip
 
