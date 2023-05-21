@@ -1,7 +1,5 @@
 import os
 from os import getenv # to retrieve env variable values
-import openai
-import sqlite3
 from dotenv import load_dotenv # to load env variables
 # from streamlit_app_config import launch_streamlit_app
 # from sqlalchemy import create_engine
@@ -11,10 +9,6 @@ load_dotenv()
 
 # Values of env variables
 DB_URL = getenv("DB_URL")
-OPENAI_KEY = getenv("OPENAI_KEY")
-
-# Load openai key
-openai.api_key = OPENAI_KEY
 
 # Define a class for the streamlit app
 class StreamlitAppConfig:
@@ -25,9 +19,6 @@ class StreamlitAppConfig:
 
     # If DB exists,
     if DB_URL:
-        
-        # Connect to db
-        conn = sqlite3.connect(DB_URL)
 
         command = f"streamlit run streamlit_app_config.py --server.enableCORS=false --server.enableXsrfProtection=false --server.maxUploadSize=1028"
         # Additional arguments explained:
@@ -49,5 +40,5 @@ class StreamlitAppConfig:
 
     # If DB does not exist,
     else:
-        print('DB_URL not found, please check your environment')
+        print('DB_URL not found, please check your .env file')
         exit(1)
