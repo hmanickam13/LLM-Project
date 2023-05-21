@@ -1,5 +1,5 @@
 # create python venv named venv
-python3.10 -m venv ./ghcproject
+python -m venv ./ghcproject
 
 # activate venv
 source ghcproject/bin/activate
