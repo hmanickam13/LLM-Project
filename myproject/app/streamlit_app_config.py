@@ -55,8 +55,13 @@ if len(user_question) > 0:
         # Extract the final result from the output
         # final_result = output.split("FINAL RESULT: ")[-1]
         
-        # Add prompt to summarize the output
-        prompt = f"Only give me the final answer from the output below:\n\n{output}"
+        # Extract the last 30 lines from the output
+        # not sure if this works or not
+        lines = output.strip().split("\n")
+        last_5_lines = "\n".join(lines[-5:])
+
+        # Add prompt to summarize the last 30 lines of output
+        prompt = f"Only give me the final answer from the last 30 lines of output below:\n\n{last_5_lines}"
         
         # Summarize the output using OpenAI Davinci API
         response = openai.Completion.create(
@@ -73,3 +78,5 @@ if len(user_question) > 0:
         # Provide an option to expand the detailed output we captured earlier
         with st.expander("Expand answer"):
             st.code(output, language="text")
+
+
