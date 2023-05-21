@@ -1,3 +1,6 @@
+# This contains all the dependencies of the project.
+# setup.sh from scripts will refer to this file during installation.
+
 openai[embeddings]==0.27.2
 openai==0.27.2
 python-dotenv==1.0.0
