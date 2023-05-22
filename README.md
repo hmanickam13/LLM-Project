@@ -16,3 +16,6 @@ This folder contains the raw data we downloaded from the internet. Read the READ
 
 3. langchain:<br>
 This folder contains the .py files I created to learn how to use langchain.
+
+4. test_runs:<br>
+This folder contains screenshots of my browser when I was running test queries.
